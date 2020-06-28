@@ -1,4 +1,4 @@
-## Git 基础
+## [1]Git 基础
 ### 获取 Git 仓库
 两种 获取 Git 项目仓库的方式
 1. 将尚未进行版本控制的本地目录转换为 Git 仓库;
@@ -14,7 +14,7 @@ example:
 **`git clone https://github.com/libgit2 libgit2 mylibgit`** 
 通过额外的参数指定新的目录名:
 
-### 记录每次更新到仓库
+### [2]记录每次更新到仓库
 文件分为两种状态: **已跟踪** / **未跟踪**
 
 ![状态图](https://git-scm.com/book/en/v2/images/lifecycle.png "状态图")
@@ -30,3 +30,11 @@ example:
 **`git diff`**
 ##### 提交更新
 **`git commit`**
+##### 跳过使用暂存区域
+**`git commit -a -m`**
+##### 移除文件
+**`git rm`**
+
+### [3]查看提交历史
+##### 查看提交历史
+**`git log`**
