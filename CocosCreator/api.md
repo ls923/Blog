@@ -28,7 +28,6 @@ ActionInterval类下的一个方法 类似 css 中 transition
 
 #### update
 **update** 在场景加载后就会每帧调用一次
-**onload** 方法会在场景加载后立刻执行
-
+**onload** 方法会在场景加载后
 #### 生命周期
 
